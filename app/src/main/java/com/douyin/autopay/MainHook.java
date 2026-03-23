@@ -12,13 +12,12 @@ public class MainHook implements IXposedHookLoadPackage {
     
     @Override
     public void handleLoadPackage(XC_LoadPackage.LoadPackageParam lpparam) throws Throwable {
-        // Hook 抖音和抖音商城
-        if (!lpparam.packageName.equals("com.ss.android.ugc.aweme") && 
-            !lpparam.packageName.equals("com.ss.android.ugc.aweme.shop")) {
+        // 只 Hook 抖音商城
+        if (!lpparam.packageName.equals("com.ss.android.ugc.aweme.shop")) {
             return;
         }
         
-        XposedBridge.log(">>> 抖音支付拦截已激活");
+        XposedBridge.log(">>> 抖音商城支付拦截已激活");
         
         // Hook Intent.setData 拦截支付宝链接
         XposedHelpers.findAndHookMethod(
