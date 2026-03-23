@@ -12,8 +12,9 @@ public class MainHook implements IXposedHookLoadPackage {
     
     @Override
     public void handleLoadPackage(XC_LoadPackage.LoadPackageParam lpparam) throws Throwable {
-        // 只 Hook 抖音
-        if (!lpparam.packageName.equals("com.ss.android.ugc.aweme")) {
+        // Hook 抖音和抖音商城
+        if (!lpparam.packageName.equals("com.ss.android.ugc.aweme") && 
+            !lpparam.packageName.equals("com.ss.android.ugc.aweme.shop")) {
             return;
         }
         
