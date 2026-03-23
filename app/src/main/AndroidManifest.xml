@@ -5,8 +5,7 @@
     <uses-permission android:name="android.permission.INTERNET" />
 
     <application
-        android:label="抖音支付拦截"
-        android:icon="@mipmap/ic_launcher">
+        android:label="抖音支付拦截">
         
         <meta-data
             android:name="xposedmodule"

@@ -1,0 +1,7 @@
+com.douyin.autopay.app-pngs-0 /Users/keane/.openclaw/workspace/douyin-xposed-simple/app/build/generated/res/pngs/debug
+com.douyin.autopay.app-resValues-1 /Users/keane/.openclaw/workspace/douyin-xposed-simple/app/build/generated/res/resValues/debug
+com.douyin.autopay.app-packageDebugResources-2 /Users/keane/.openclaw/workspace/douyin-xposed-simple/app/build/intermediates/incremental/debug/packageDebugResources/merged.dir
+com.douyin.autopay.app-packageDebugResources-3 /Users/keane/.openclaw/workspace/douyin-xposed-simple/app/build/intermediates/incremental/debug/packageDebugResources/stripped.dir
+com.douyin.autopay.app-merged_res-4 /Users/keane/.openclaw/workspace/douyin-xposed-simple/app/build/intermediates/merged_res/debug
+com.douyin.autopay.app-debug-5 /Users/keane/.openclaw/workspace/douyin-xposed-simple/app/src/debug/res
+com.douyin.autopay.app-main-6 /Users/keane/.openclaw/workspace/douyin-xposed-simple/app/src/main/res

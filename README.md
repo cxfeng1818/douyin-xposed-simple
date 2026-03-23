@@ -1,30 +1,23 @@
-# 抖音自动下单APP
+# 抖音支付链接拦截插件
 
-## 功能
-- 无障碍服务自动操作抖音
-- 剪贴板监听拦截支付链接
-- WebSocket连接服务端
-- 无需root
-- 后台运行
+## 手动构建方法
 
-## 工作原理
+由于 GitHub Actions 构建失败，请使用以下方法之一：
 
-1. 无障碍服务自动点击"购买"按钮
-2. 监听剪贴板捕获支付宝链接
-3. 发送链接到服务端
-4. 用户手动支付
+### 方法1：Android Studio
+1. 克隆项目：`git clone https://github.com/cxfeng1818/douyin-xposed-simple.git`
+2. 用 Android Studio 打开
+3. Build > Build Bundle(s) / APK(s) > Build APK(s)
 
-## 使用方法
-
-1. 安装APK
-2. 开启无障碍服务
-3. 打开抖音
-4. 自动执行下单
-
-## 编译
-
+### 方法2：命令行（需要 Android SDK）
 ```bash
 ./gradlew assembleDebug
 ```
 
-APK位置：`app/build/outputs/apk/debug/app-debug.apk`
+### 方法3：使用 Frida（无需编译）
+见 douyin-alipay-hook 项目
+
+## 功能
+- 拦截抖音跳转支付宝的链接
+- 记录到 Xposed 日志
+- 需要 LSPatch 或其他 Xposed 框架

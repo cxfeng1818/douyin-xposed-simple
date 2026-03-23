@@ -1,0 +1,41 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.douyin.autopay"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="24"
+9        android:targetSdkVersion="33" />
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/keane/.openclaw/workspace/douyin-xposed-simple/app/src/main/AndroidManifest.xml:5:5-67
+11-->/Users/keane/.openclaw/workspace/douyin-xposed-simple/app/src/main/AndroidManifest.xml:5:22-64
+12
+13    <application
+13-->/Users/keane/.openclaw/workspace/douyin-xposed-simple/app/src/main/AndroidManifest.xml:7:5-19:19
+14        android:debuggable="true"
+15        android:extractNativeLibs="false"
+16        android:label="抖音支付拦截" >
+16-->/Users/keane/.openclaw/workspace/douyin-xposed-simple/app/src/main/AndroidManifest.xml:8:9-31
+17        <meta-data
+17-->/Users/keane/.openclaw/workspace/douyin-xposed-simple/app/src/main/AndroidManifest.xml:10:9-12:36
+18            android:name="xposedmodule"
+18-->/Users/keane/.openclaw/workspace/douyin-xposed-simple/app/src/main/AndroidManifest.xml:11:13-40
+19            android:value="true" />
+19-->/Users/keane/.openclaw/workspace/douyin-xposed-simple/app/src/main/AndroidManifest.xml:12:13-33
+20        <meta-data
+20-->/Users/keane/.openclaw/workspace/douyin-xposed-simple/app/src/main/AndroidManifest.xml:13:9-15:41
+21            android:name="xposeddescription"
+21-->/Users/keane/.openclaw/workspace/douyin-xposed-simple/app/src/main/AndroidManifest.xml:14:13-45
+22            android:value="拦截抖音支付宝链接" />
+22-->/Users/keane/.openclaw/workspace/douyin-xposed-simple/app/src/main/AndroidManifest.xml:15:13-38
+23        <meta-data
+23-->/Users/keane/.openclaw/workspace/douyin-xposed-simple/app/src/main/AndroidManifest.xml:16:9-18:34
+24            android:name="xposedminversion"
+24-->/Users/keane/.openclaw/workspace/douyin-xposed-simple/app/src/main/AndroidManifest.xml:17:13-44
+25            android:value="82" />
+25-->/Users/keane/.openclaw/workspace/douyin-xposed-simple/app/src/main/AndroidManifest.xml:18:13-31
+26    </application>
+27
+28</manifest>
